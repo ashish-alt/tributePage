@@ -1,0 +1,105 @@
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #main{
+            font-family: 'Baloo Paaji 2', cursive;
+        }
+        @media (max-width: 460px) {
+  #main {
+    margin: 0;
+  }
+}
+    
+        body{
+            background-color: #f5d6c6;
+        }
+        #nav-bar{
+            position: absolute;
+    background-color: #3D9970;
+    margin: -77px auto;
+    width: 100%;
+    padding: 20px;
+        }
+        #nav-bar ul li a{
+            text-decoration: none;
+            padding: 134px;
+           color:black;
+           font-family: 'Anton', sans-serif;
+        }
+        #nav-bar li a:hover{
+            text-decoration:underline;
+            color:white;
+            border-top: solid red;
+        }
+        #nav-bar li{
+            display:inline-block;
+        }
+        @media(max-width: 460px){
+            #nav-bar li {
+                font-size: 1.8rem;
+            }
+        }
+        #title{
+            margin-top: 50px;
+        }
+
+        #image {
+  max-width:100%;
+  display:block;
+  height:auto;
+  margin: auto;
+        }
+
+        #img-caption{
+            text-align: center;
+        }
+        @media (max-width: 460px) {
+  #img-caption {
+    font-size: 1.4rem;
+  }
+}
+        #title {
+            text-align: center;
+            margin-top: 77px;
+        }
+
+        .abs {
+            text-align: center;
+            font-size: 30px;
+        }
+        #img-div{
+            display:block;
+            margin:16px 40px;
+        }
+       
+        @media (max-width: 460px) {
+  h1 {
+    font-size: 3.5rem;
+    line-height: 1.2;
+  }
+}
+        #block-quotes{
+            text-align: center;
+            font-family: 'Dancing Script', cursive;
+            font-size: 28px;
+        }
+        #tribute-linked{
+            text-align: center;
+            font-size: 28px;
+        }
+        #tribute-info li{
+            margin:16px 40px;
+        }
+        #over-view{
+            margin:16px 40px;
+        }
+        footer{
+            text-align: center;
+           font-size: medium;
+        }
+        #quotes{
+            font-size: 30px;
+        }
+      
